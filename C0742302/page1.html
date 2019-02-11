@@ -4,15 +4,16 @@
     <title></title>
 </head>
 <body>
-    <div>Content goes here.</div>
-    <script >
+    <script>
+        var input1 = prompt("how high should i count up to? ");
+
         var sum = 0;
-        for (var i = 0; i <= 10; i++)
+        for (var i = 0; i < input1; i++)
         {
             sum += i;
 
         }
-        Document.Write(sum);
+        document.write(sum);
     </script>
 </body>
 </html>
