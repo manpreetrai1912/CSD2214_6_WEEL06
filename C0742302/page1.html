@@ -8,11 +8,14 @@
         var input1 = prompt("how high should i count up to? ");
 
         var sum = 0;
-        for (var i = 0; i < input1; i++)
+        for (var i = 0;  i <= input1; i++)
         {
+            document.write("<p>pointA: i is:" + i);
+            document.write("<p>pointB: sum is:" + sum);
             sum += i;
-
+            document.write("<p>pointc: sum is:" + sum);
         }
+        document.write("<hr><p>pointD: sum is:" + sum);
         document.write(sum);
     </script>
 </body>
